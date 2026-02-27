@@ -1,0 +1,32 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main() {
+
+	setlocale(0, "");
+
+	cout << "[1]Начать игру\n[2]Выйти" << endl;
+	cout << "Строка:";
+	int count = 5;
+	int trueNumbers = 0;
+	char symbol;
+	int tryes;
+	cin >> symbol;
+	if (symbol == '1')
+	{
+		while (tryes <= 5) {
+			cout << "[+]Угадано чисел: " << trueNumbers << "/3" << "\n[+]Попыток: " << count - 1 << endl;
+			int rand_number = 1 + std::rand() % 10;
+			cout << rand_number << endl;
+
+		}
+
+	}
+	else
+	{
+		cout << "До свидания!" << endl;
+		return 0;
+	}
+
+}
