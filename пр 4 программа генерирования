@@ -1,0 +1,129 @@
+#include <iostream> //4
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+
+    cout << "Генерация примера\n";
+    cout << "Введите число: ";
+    int a;
+    cin >> a;
+    int result = a * 1;
+    cout << "Решите пример: " << a << " * 1 = ?" << endl;
+    int answer;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 2 = ?" << endl;
+    result = a * 2;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 3 = ?" << endl;
+    result = a * 3;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 4 = ?" << endl;
+    result = a * 4;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 5 = ?" << endl;
+    result = a * 5;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 6 = ?" << endl;
+    result = a * 6;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 7 = ?" << endl;
+    result = a * 7;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 8 = ?" << endl;
+    result = a * 8;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Продолжим генерацию примеров." << endl;
+    cout << "Решите пример: " << a << " * 9 = ?" << endl;
+    result = a * 9;
+    cout << "-> ";
+    cin >> answer;
+    if (answer == result)
+    {
+        cout << "Правильно!" << endl;
+    }
+    else
+    {
+        cout << "Неправильно. Правильный ответ: " << result << endl;
+    }
+    cout << "Конец генерации примеров." << endl;
+}
