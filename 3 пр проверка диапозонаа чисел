@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    setlocale(0, "");
+    cout << "Проверка диапазона чисел от 1 до 100\n";
+    cout << "Введите число: ";
+    int number;
+    cin >> number;
+    if (number >= 1 && number <= 10)
+    {
+        cout << "Число " << number << " находится в диапазоне от 0 до 10." << endl;
+    }
+    else if (number >= 11 && number <= 20)
+    {
+        cout << "Число " << number << " находится в диапазоне от 11 до 20." << endl;
+    }
+    else if (number >= 21 && number <= 30)
+    {
+        cout << "Число " << number << " находится в диапазоне от 21 до 30." << endl;
+    }
+    else if (number >= 31 && number <= 40)
+    {
+        cout << "Число " << number << " находится в диапазоне от 31 до 40." << endl;
+    }
+    else if (number >= 41 && number <= 50)
+    {
+        cout << "Число " << number << " находится в диапазоне от 41 до 50." << endl;
+    }
+    else if (number >= 51 && number <= 60)
+    {
+        cout << "Число " << number << " находится в диапазоне от 51 до 60." << endl;
+    }
+    else if (number >= 61 && number <= 70)
+    {
+        cout << "Число " << number << " находится в диапазоне от 61 до 70." << endl;
+    }
+    else if (number >= 71 && number <= 80)
+    {
+        cout << "Число " << number << " находится в диапазоне от 71 до 80." << endl;
+    }
+    else if (number >= 81 && number <= 90)
+    {
+        cout << "Число " << number << " находится в диапазоне от 81 до 90." << endl;
+    }
+    else if (number >= 91 && number <= 100)
+    {
+        cout << "Число " << number << " находится в диапазоне от 91 до 100." << endl;
+    }
+    else
+    {
+        cout << "Число " << number << " вне диапазона от 1 до 100." << endl;
+    }
+}
